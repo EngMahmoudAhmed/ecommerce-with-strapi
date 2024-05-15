@@ -18,8 +18,8 @@ const Header = () => {
                                         className="text-gray-500 transition hover:text-gray-500/75"
                                         href="#"
                                     >
-                                        {" "}
-                                        About{" "}
+                                        
+                                        Home
                                     </a>
                                 </li>
 
@@ -28,8 +28,8 @@ const Header = () => {
                                         className="text-gray-500 transition hover:text-gray-500/75"
                                         href="#"
                                     >
-                                        {" "}
-                                        Careers{" "}
+                                        
+                                        Explore
                                     </a>
                                 </li>
 
@@ -38,8 +38,8 @@ const Header = () => {
                                         className="text-gray-500 transition hover:text-gray-500/75"
                                         href="#"
                                     >
-                                        {" "}
-                                        History{" "}
+                                        
+                                        Projects
                                     </a>
                                 </li>
 
@@ -48,8 +48,7 @@ const Header = () => {
                                         className="text-gray-500 transition hover:text-gray-500/75"
                                         href="#"
                                     >
-                                        {" "}
-                                        Services{" "}
+                                        About Us
                                     </a>
                                 </li>
 
@@ -58,34 +57,24 @@ const Header = () => {
                                         className="text-gray-500 transition hover:text-gray-500/75"
                                         href="#"
                                     >
-                                        {" "}
-                                        Projects{" "}
+                                        Contact Us
                                     </a>
                                 </li>
 
-                                <li>
-                                    <a
-                                        className="text-gray-500 transition hover:text-gray-500/75"
-                                        href="#"
-                                    >
-                                        {" "}
-                                        Blog{" "}
-                                    </a>
-                                </li>
                             </ul>
                         </nav>
 
                         <div className="flex items-center gap-4">
                             <div className="sm:flex sm:gap-4">
                                 <a
-                                    className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium  text-white transition hover:bg-teal-700"
+                                    className="block rounded-md bg-primary px-5 py-2.5 text-sm font-medium  text-white transition hover:bg-secondary active:text-teal-400"
                                     href="#"
                                 >
                                     Login
                                 </a>
 
                                 <a
-                                    className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
+                                    className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 active:text-teal-400 sm:block"
                                     href="#"
                                 >
                                     Register

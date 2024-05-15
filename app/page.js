@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Hero from "./_components/Hero";
 
 const page = () => {
   return (
     <div>
-      hello next js
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
