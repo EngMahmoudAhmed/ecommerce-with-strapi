@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = () => {
+const Hero = () => {
   return (
     <div>
-      hello next js
+      Hero
     </div>
   )
 }
 
-export default page
+export default Hero
